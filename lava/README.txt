@@ -13,8 +13,8 @@ The original source files are untouched. loader.lua patches them in memory
 (dead example.invalid URLs, leftover renamed helpers, out-of-scope locals).
 
 Known limits (not fixable from the open-source drop):
- - Bots tab: needs Lava's private relay (ctx.relayReady) -> stays disabled.
- - "Auto Execute on Hop": needs a hosted URL -> does nothing.
+ - Bots tab: needs Lava's private relay (ctx.relayReady), stays disabled.
+ - "Auto Execute on Hop": needs a hosted URL, does nothing.
  - Update log / Discord links: point to dead services.
  - Community Builds browser: its backend was never published.
  - Private TCO vault features were removed by the authors.
